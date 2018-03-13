@@ -7,13 +7,13 @@
 %}
 
 IDENTIFIER  [a-zA-Z0-9_]+
-
+EQUAL_IDENTIFIER [\=\:]|":="
 
 %%
 
 \#.*       { /* ignore python style comments */ }
-"//".*     { /* ignore these types of comments as well */ }
-[\=\:]|":="              { return EQUAL; }
+"//".*     { /* ignore  C style comments as well */ }
+EQUAL_IDENTIFIER              { return EQUAL; } 
 
 {IDENTIFIER}      { yylval = strdup(yytext);
                     return ID; }

@@ -5,6 +5,9 @@
 #+END_COMMENT
 #+OPTIONS: ^:nil
 
+* नेपाली बृहत् शब्दकोषको परिचय
+
+
 * Notes about the Vrihat Shabdakosh
 ** syntax
 ** <शब्द> - संकेत अर्थहरु

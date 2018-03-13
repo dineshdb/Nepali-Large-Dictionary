@@ -12,7 +12,6 @@ CREATE TABLE IF NOT EXISTS `tbl_component_main_entry_index`
 ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='Results fetched
 from main entry of each component' AUTO_INCREMENT=7621 ;
 
-
 CREATE TABLE IF NOT EXISTS `tbl_component_indv_entry_index`
 ( `component_indv_entry_index_id` int(11) NOT NULL AUTO_INCREMENT,
   `component_indv_entry_index_pk` int(11) NOT NULL,

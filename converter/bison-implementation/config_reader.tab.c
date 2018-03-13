@@ -1550,7 +1550,7 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 31 "config_reader.y" /* yacc.c:1906  */
+#line 30 "config_reader.y" /* yacc.c:1906  */
 
 
 
